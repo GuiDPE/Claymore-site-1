@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- A tag meta charset="UTF-8" é uma tag meta utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento. -->
+    <!-- Porque é importante usarmos o charset UTF-8?
+    O charset UTF-8 é o que usamos na web atual e faz parte de um padrão chamado Unicode. A ideia é que com ele possamos representar qualquer caractere de qualquer idioma. Ao usar o charset dentro da tag meta de nosso arquivo estamos dizendo ao navegador: quando for ler esse arquivo, use as regras do charset UTF-8. -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- A meta tag de viewport controla como um site é exibido em um dispositivo móvel. Quando o Google avalia o quanto seu site é otimizado para dispositivos móveis, ele analisa a configuração da janela de visualização como um critério para otimização. -->
+
+    <meta name="author" content="Guilherme de Paula"> <!-- Informando o autor. -->
+    <meta name="description" content="Site sobre a obra do mangaká Norihiro Yagi. Claymore se passa em um mundo de fantasia medieval onde uma organização comanda guerreiras intituladas de Claymores contra criaturas Youma."> <!-- Descrição sobre a página. -->
+    <meta name="keywords" content="Claymore, manga, anime"> <!-- Ajuda a filtrar no google as palavras chaves pra encontrar o site -->
+
+    <title>Claymore Brasil</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Importando o CSS externo. -->
+    
+    <script src="https://kit.fontawesome.com/7133845373.js" crossorigin="anonymous"></script>
+    <!-- Esse script permite linkar o site fontawesome para ser permitido a importação de icones. -->
+    <!-- No site Claymore os icone importados são icone menu mobile e icone X para fechar o menu monile. -->
+    
+    <!-- Foi criado um cadastro no site fontawesome.com para a utilização dos icones do site.
+    Cada conta só pode usar os icones em um site, pois o código gerado só vale para um site. Tentar usar esse mesmo código em outros não vai funcionar. Para contonar isso é necessario pagar um valor pra virar conta pro-->
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <img src="img/logo.png" alt="logo" id="logo">
+        <div class="conteiner-header"> 
+                <nav> <!-- Menu de navegação -->
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i> <!-- Icone do menu mobile importado do fontawesome -->
+                    </label>
+
+                    
+                    <ul>
+                    <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fa-solid fa-xmark"></i> <!-- Icone do X para fechar o menu mobile importado do fontawesome. -->
+                        </label>
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="anime.html">Anime</a></li>
+                        <li><a href="manga.html">Manga</a></li>
+                        <li><a href="imagens.html">Imagens</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+
+    <!-- Conteudo principal -->
+    <main>
+        <h1>Claymore Brasil</h1>
+        <img src="img/claymore_homepage.jpg" alt="Claymore_homepage_imagem" id="img-main-conteudo">
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy;</p>
+        </div class="icon-social">
+        <div>
+            <a href="#"><img src="img/icon-face.png" alt="Icon-facebook"></a> 
+        </div>
+    </footer>
+</body>
+</html>
